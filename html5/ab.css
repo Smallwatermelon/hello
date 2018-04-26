@@ -1,0 +1,76 @@
+body{
+    background-color: lavenderblush;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: small;
+    margin: 0px;
+}
+header.top{
+    background-color: lightcyan;
+    margin: 10px 10px 0px 10px;
+    height: 160px;
+}
+header.top img#logo1{
+    float: right;
+}
+
+#table{
+    display:table;
+    border-spacing: 10px;
+}
+#tableRoW{
+    display: table-row;
+}
+
+section#line{
+    display:table-cell;
+    background-color: #7fb287;
+    width: 20%;
+    padding:15px;
+    vertical-align: top;
+}
+section#main ,section#blog{
+    display: table-cell;
+    background-color: #7fb287;
+    width: 50%;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}
+aside{
+    display: table-cell;
+    background-color: #7fb287;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align:top;
+}
+footer{
+    background-color: azure;
+    color: darkred;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    font-size: 90%;
+}
+nav{
+     background-color: #efe5d0;
+     margin: 10px 10px 0px 10px;
+ }
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link,nav ul li a:visited{
+    color: #954b4b;
+    border-bottom:none;
+    font-weight: bold;
+    text-decoration:none
+
+}
+nav ul li.art{
+    background-color: #c8b99c;
+}
