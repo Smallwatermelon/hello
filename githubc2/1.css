@@ -1,0 +1,52 @@
+div#nav1{
+    background-color: azure;
+    margin: 0px;
+    height:80px;
+}
+nav{
+    margin: 0 200px 0 200px;
+    font-size: large;
+}
+nav ul{
+    margin: 0px;
+    float: right;
+    list-style-type: none;
+    padding: 30px 0px 30px 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link,nav ul li a:visited{
+    border-bottom:none;
+    color: black;
+    text-decoration:none
+
+}
+
+
+div#nav1{
+    background-color: azure;
+    margin: 0px;
+    height:80px;
+}
+nav{
+    margin: 0 200px 0 200px;
+}
+div#logo{
+
+}
+div#logo img{
+    margin: 5px 0px 0px 0px;
+}
+div#logo h1{
+    display:inline;
+    font-size: xx-large;
+}
+ul.line{
+    display:inline;
+    margin: 0px;
+    float: right;
+    list-style-type: none;
+    padding: 30px 0px 30px 0px;
+}
