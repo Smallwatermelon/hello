@@ -1,0 +1,8 @@
+body{
+    background:url("photo/beijing.jpg");
+}
+#hr{
+    float: right;
+    padding-top: 100px;
+    padding-right: 100px;
+}
