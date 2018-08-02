@@ -1,0 +1,107 @@
+.center5 {
+    width: 100%;
+    height: 100%;
+    background: url("../picture/wel18.jpg");
+    padding: 60px 0;
+}
+
+.ul2{
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.ul1{
+    overflow: hidden;
+}
+
+.art-a {
+
+    width: 320px;
+    height: 240px;
+    margin: 50px 20px 15px 15px;
+    float: left;
+    background-color: white;
+    position: relative;
+}
+
+.p {
+    color: #808080;
+}
+
+.h3 {
+     padding: 10px;
+
+ }
+
+.eight {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    display: none;
+
+}
+
+.ar2 {
+    color: white;
+    background-color: #10398e;
+    width: 70px;
+    height: 60px;
+    z-index: 3;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+}
+
+.ar1 {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: auto;
+    padding: 10%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.art-a h3, .ar3 {
+    color: black;
+}
+
+.ar3 {
+    width: 320px;
+    height: 58px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 85%;
+    text-align: right;
+    border-top: #aaaaaa 1px solid;
+}
+
+.ar3 p {
+    padding: 15px 15px;
+}
+
+.list {
+    width: 320px;
+    height: 187px;
+    position: absolute;
+}
+
+.ar3:hover {
+    background-color: #10398e;
+    color: white;
+}
+
+/*变换影视*/
+
+.hit .ar1 {
+    display: none;
+}
+
+.hit .eight {
+    width: 320px;
+    display: block;
+}

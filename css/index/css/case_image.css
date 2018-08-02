@@ -1,0 +1,46 @@
+.search{
+    width: 100%;
+    height: auto;
+    padding:3% 0;
+    background-color: #f2f2f2;
+}
+.search1{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 0 1%;
+}
+.search2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.hid{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.hid1{
+    width: 100%;
+    height: auto;
+}
+.search3{
+    width: 100%;
+    height: auto;
+    overflow:hidden ;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+.show .hid{
+    display: block;
+    z-index: 2;
+}
+.show .hid1{
+    opacity: 0.6;
+}

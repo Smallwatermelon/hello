@@ -1,0 +1,47 @@
+.page{
+    padding-top: 50px;
+    color:#78828e;
+    text-align: center;
+    font-size: 0;
+    margin-left: 10px;
+}
+
+.page a{
+    background-color: white;
+    height: 45px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#pageNum{
+    display: inline-block;
+    font-size: 18px;
+}
+#pageNum li{
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    list-style: none;
+    line-height: 25px;
+    text-align: center;
+}
+.page a:hover,#pageNum li{
+    background-color: #f5f5f5;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.page ul .lor{
+   background-color: #10398e;
+    color: white;
+
+}
+#number{
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}

@@ -1,0 +1,220 @@
+body,html{
+    padding:0;
+    margin: 0;
+    font-size:14px ;
+    background-color: #023894;
+}
+*{
+    padding:0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+nav{
+    background-color: #ffffff;
+    padding:0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 999;
+}
+
+.a2{
+     text-decoration:none;
+     color: black;
+ }
+
+/*图标1图片的外边距*/
+.img1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+} /*图标1块元素转变为内敛元素*/
+
+/*屏幕高度小于1085的*/
+@media only screen and (max-width: 1600px) {
+    /*图标3浮动*/
+    .span1{
+     display: none;
+    }
+    .flo{
+        float:right;
+        padding:30px;
+    }
+    /*图标1和大列表为内敛*/
+    .inline{
+        display: inline-block;
+        vertical-align: middle;
+        padding:0;
+        margin:0;
+
+    }
+
+    /*列表居中位置及外边距*/
+    .inline1{
+        display: inline-block;
+        vertical-align: middle;
+        margin:0;
+        height: 50px;
+        padding:0 25px 0 25px;
+    }
+    /*列表块宽度*/
+    #in-ul{
+        width:600px;
+        margin-left:20%;
+
+    }
+    /*大列表*/
+    .center1{
+        padding-top:30px;
+        height: 50px;
+    }
+
+    .center1>li:first-child{
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .center1>li:last-child{
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    .a2:hover{
+        color: #023894;
+    }
+    /*导航栏下拉菜单*/
+    .center1>li{
+        float: left;
+    }
+    .li{
+        display: block;/*块元素*!*/
+        text-decoration: none; /*//文本修饰*/
+        width: 120px;
+        height: 40px;
+        text-align: center; /*//文本的水平对齐方式*/
+        line-height: 50px; /*//行高*/
+        color:black;
+        background-color: #ffffff;
+    }
+    .down{
+        position: relative;
+    }
+    .li1{
+        padding: 0;
+        position: absolute;
+        left: -999px;
+    }
+    .li1 li:hover a{
+        color:#023894;
+        padding-top:25px;
+
+
+
+    }
+    .center1 .down:hover .li1{
+        left: 0;
+        top:50px;
+    }
+    /*.icon{*/
+        /*display: none;*/
+    /*}*/
+}
+@media only screen and (max-width: 1065px) {
+    .flo{
+        float:right;
+        padding:0;
+        display: inline-block;
+    }
+    .inline3{
+        display: inline-block;
+    }
+    .span1{
+        display: inline-block;
+        width: 20px;
+        height: 17px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+
+
+    .center1>li:first-child{
+
+        padding-left: 35px;
+        padding-right:auto;
+        padding-top: 15px;
+
+    }
+    .center1>li:last-child{
+        padding-left: 35px;
+        padding-right: auto;
+        width: 100%;
+
+    }
+
+    .inline {
+        display: block;
+        width: auto;
+        padding: 0;
+    }
+
+    .inline1 {
+        display: block;
+        vertical-align: baseline;
+        margin: 0;
+        height: 40px;
+        padding-left: 35px;
+        padding-top: 10px;
+        width: 100%;
+    }
+    .center1{
+        display: none;
+        position: fixed;
+        left: 0;
+        top:80px;
+        width: 100%;
+        height: auto;
+        z-index:99;
+        background-color: #ffffff;
+
+    }
+
+    .li1 {
+        padding: 0;
+        position: static;
+        left: 0;
+    }
+
+    .center1 > li {
+        clear: both;
+    }
+
+    .li {
+        width: 100%;
+        height: auto;
+        text-align: left; /*//文本的水平对齐方式*/
+        color: black;
+
+        display: none;
+
+    }
+
+    #in-ul{
+        width:100%;
+        margin:0;
+
+    }
+    .span{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+}
+}
+
+

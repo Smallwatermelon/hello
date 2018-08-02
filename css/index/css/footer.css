@@ -1,0 +1,42 @@
+footer{
+    background-color:#2d2d2d;
+    width: 100%;
+    height: auto;
+    color:white;
+    position: relative;
+
+}
+footer ul a{
+
+}
+.center6 li{
+    list-style:none
+}
+
+.li2{
+    font-size: large;
+    display:inline-block;
+    padding: 30px;
+    vertical-align: top;
+}
+.li2 ul li{
+    color: #c5c5c5;
+}
+.li2 ul li:hover{
+    color: white;
+}
+.left{
+    padding: 50px 30px auto 30px;
+
+}
+.center7{
+  position: absolute;
+    top: 30px;
+    right: 80px;
+}
+.center8{
+    padding: 30px;
+    border-top: #424242 1px solid;
+
+
+}

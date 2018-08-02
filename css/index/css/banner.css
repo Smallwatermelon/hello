@@ -1,0 +1,136 @@
+* {
+    margin:0;
+    padding:0;
+}
+.banner{
+    padding-top:60px;
+    position: relative;
+}
+#wrap {
+
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+#slider{
+    width: 300%;
+    height: auto;
+    -webkit-animation:slide1 8s ease-out infinite;
+}
+#slider img{
+    float: left;
+}
+@-webkit-keyframes slide1 {
+    0% { margin-left:0;}
+    23% { margin-left:0;}
+    33% { margin-left:-100%;}
+    56% { margin-left:-100%;}
+    66% { margin-left:-200%;}
+    90% { margin-left:-200%;}
+    100% {margin-left:0;}
+}
+
+@-webkit-keyframes slide2 {
+    0% { margin-left:-100%;}
+    23% { margin-left:-100%;}
+    33% { margin-left:-200%;}
+    56% { margin-left:-200%;}
+    66% { margin-left:0;}
+    90% { margin-left:0;}
+    100% {margin-left:-100%;}
+}
+
+@-webkit-keyframes slide3 {
+    0% { margin-left:-200%;}
+    23% { margin-left:-200%;}
+    33% { margin-left:0;}
+    56% { margin-left:0;}
+    66% { margin-left:-100%;}
+    90% { margin-left:-100%;}
+    100% {margin-left:-200%;}
+}
+/*修改动画名称*/
+#l01:checked ~ #wrap #slider {
+    -webkit-animation-name:slide1;
+}
+
+#l02:checked ~ #wrap #slider {
+    -webkit-animation-name:slide2;
+}
+
+#l03:checked ~ #wrap #slider {
+    -webkit-animation-name:slide3;
+}
+
+/*短暂地取消动画名称，模拟重启动画*/
+#l01:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:0;
+}
+
+#l02:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-100%;
+}
+
+#l03:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-200%;
+}
+
+@media only screen and (max-width: 1600px) {
+    #opts {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        bottom: 40px;
+        color: #fff;
+        text-align: center;
+        z-index: 100;
+
+    }
+
+
+}
+@media only screen and (max-width: 1065px) {
+    #opts {
+        display: none;
+    }
+
+}
+#l01, #l02, #l03 {
+    display:none;
+}
+#opts label:hover {
+    background:#405871;
+}
+
+.b1{
+    width: 6%;
+    height: auto;
+    position: absolute;
+    top:60px;
+    left: 0;
+}
+.b2{
+    width: 6%;
+    height:auto;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.b5 {
+    width: 8%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.b6{
+    width: 8%;
+    height:auto;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
