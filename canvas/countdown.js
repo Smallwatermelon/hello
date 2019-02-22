@@ -4,7 +4,7 @@ var R=8;
 TOP=60;
 LEFT=30;
 
-const endTime=new Date(2019,2,25,00,00,00);
+const endTime=new Date(2019,3,25,00,00,00);
 var curShowTimeSeconds=0;
 
 var balls=[];
